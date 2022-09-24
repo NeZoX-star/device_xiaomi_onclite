@@ -19,6 +19,7 @@ $(call inherit-product, vendor/dot/config/common.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 
 # DotOS Stuff
+DOT_MAINTAINER := NeZoX-star
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_BLUR := true
 WITH_GAPPS := true
