@@ -17,6 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Boot Animation
 TARGET_BOOT_ANIMATION_RES := 720
+LINEAGE_MAINTAINER := NeZoX-star
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_onclite
