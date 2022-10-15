@@ -134,7 +134,6 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor \
 
 PRODUCT_PACKAGES += \
-    GoogleCamera \
     GcamGoMod
 
 # Dalvik
@@ -380,10 +379,6 @@ PRODUCT_PACKAGES += \
 # RenderScript HAL
 PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
-
-# Remove unwanted packages
-PRODUCT_PACKAGES += \
-    Remove_Packages
 
 # RIL
 PRODUCT_PACKAGES += \
