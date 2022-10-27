@@ -43,6 +43,7 @@ ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 
 # SkiaGL Threaded
+debug.hwui.skia_atrace_enabled=false
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true
