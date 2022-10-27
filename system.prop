@@ -55,14 +55,6 @@ debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
 renderthread.skia.reduceopstasksplitting=true
 
-# Iorap
-iorapd.perfetto.enable=true
-iorapd.readahead.enable=true
-vendor.iop.enable_prefetch_ofr=1
-
-# Keyguard
-persist.wm.enable_remote_keyguard_animation=0
-
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 vendor.mm.enable.qcom_parser=1048575
@@ -70,15 +62,10 @@ vendor.vidc.dec.downscalar_height=1088
 vendor.vidc.dec.downscalar_width=1920
 vendor.vidc.enc.disable_bframes=1
 
-# Perfetto
-persist.device_config.runtime_native_boot.iorap_readahead_enable=true
-
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
 # Radio
-DEVICE_PROVISIONED=1
-persist.sys.fflag.override.settings_provider_model=false
 ril.subscription.types=NV,RUIM
 rild.libargs=-d /dev/smd0
 ro.telephony.default_network=22,22
