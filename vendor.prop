@@ -67,6 +67,7 @@ ro.max.fling_velocity=20000
 # Graphics
 ro.opengles.version=196610
 vendor.display.disable_skip_validate=1
+debug.sf.enable_transaction_tracing=false
 
 #go_defaults
 ro.config.low_ram=false
